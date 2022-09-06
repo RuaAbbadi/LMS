@@ -114,9 +114,9 @@
 						<tbody>
 							<tr>
 								<?php
-								$admin_status = 0;
-								$query = "SELECT leaves.id as lid,employees.name,employees.emp_id,leaves.type,leaves.publish_date,leaves.status, leaves.admin_status from leaves join employees on leaves.empid=employees.emp_id where leaves.admin_status= '$admin_status' order by lid desc limit 5";
-								$result = $mysqli->query($query);
+								$query = "SELECT leaves.id as lid,employees.name,employees.emp_id,leaves.type,leaves.publish_date,leaves.admin_status
+								from leaves join employees on leaves.empid=employees.emp_id order by lid desc " ;
+							   $result = $mysqli->query($query);
 								while ($row = $result->fetch_assoc()) {
 								?>
 									<td class="table-plus">

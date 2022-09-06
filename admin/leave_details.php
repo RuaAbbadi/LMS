@@ -59,6 +59,10 @@ if (isset($_POST['update'])) {
         $stmt->execute();
 
         $_SESSION['flash_messages']['success'] = 'Your Action was taken successfully!';
+        header('Location: admin_dashboard.php');
+	    exit;
+
+        
 
 
     }
