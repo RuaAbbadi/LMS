@@ -27,16 +27,6 @@
 							<li><a href="employee.php">Edit Employee</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="javascript:;" class="dropdown-toggle">
-					     <span class="mtext"> Leaves </span>
-						</a>
-						<ul class="submenu">
-							<li><a href="pending_leave.php">Pending Leaves</a></li>
-							<li><a href="approved_leave.php">Approved Leaves</a></li>
-							<li><a href="rejected_leave.php">Rejected Leaves</a></li>
-						</ul>
-					</li>
 					<li>
 						<div class="dropdown-divider"></div>
 					</li>
