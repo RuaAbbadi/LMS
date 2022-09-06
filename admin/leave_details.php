@@ -4,8 +4,7 @@
 // code for update the read notification status
 $isread = 1;
 $did = intval($_GET['leaveid']);
-date_default_timezone_set('Asia/Kolkata');
-$admremarkdate = date('Y-m-d G:i:s ', strtotime("now"));
+$admremarkdate = date('Y-m-d H:i:s ', strtotime("now"));
 
 $query = 'UPDATE leaves SET
  IsRead= ?
@@ -24,8 +23,7 @@ if (isset($_POST['update'])) {
     $status = $_POST['status'] ?? 0;
 
 
-    date_default_timezone_set('Asia/Kolkata');
-    $admremarkdate = date('Y-m-d G:i:s ', strtotime("now"));
+    $admremarkdate = date('Y-m-d H:i:s ', strtotime("now"));
 
     if ($status === '2') {
 
