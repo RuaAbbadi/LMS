@@ -158,15 +158,12 @@ if (isset($_POST['add_staff'])) {
 										</div>
 									</div>
 								</div>
-								<div class="col-md-12 col-sm-12">
+								<div class="col-md-4 col-sm-12">
 									<div class="form-group">
 										<label style="font-size:16px;"><b></b></label>
-										<div class="modal-footer justify-content-center">
-											<button class="btn btn-primary text-right" name="add_staff" id="add_staff" data-toggle="modal">Update Employee</button>
-										</div>
+											<button class="btn btn-primary" name="add_staff" id="add_staff" data-toggle="modal">Update Employee</button>
 									</div>
 								</div>
-
 							</section>
 						</form>
 					</div>

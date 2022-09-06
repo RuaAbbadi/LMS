@@ -122,7 +122,7 @@ if (isset($_GET['delete'])) {
 								<th class="table-plus">EMP NAME</th>
 								<th>EMAIL</th>
 								<th>DEPARTMENT</th>
-								<th>Address</th>
+								<th>ADDRESS</th>
 								<th>POSITION</th>
 								<th class="datatable-nosort">ACTION</th>
 							</tr>
